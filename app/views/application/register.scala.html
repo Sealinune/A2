@@ -1,0 +1,56 @@
+@(err:String)
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    
+        <h1>Sign-up Page:</h1>
+        <form action="register" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label>Email address:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="email"><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" /><br/>
+                    </td>
+                </tr>
+              
+                <tr>
+                    <td>
+                        <label>Repeat password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="repw" /><br/>
+                    </td>
+                </tr>
+               
+            </table>
+        
+            <button type="submit" style="width:300px; height: 80px;">Submit</button>
+
+        </form>
+        
+        <form action="index" method = "get"> 
+            <button type="submit" style="width:300px; height: 80px;">Back to the home page</button>
+        </form>
+        @if(err != null) {
+            <p> @err </p>
+        }        
+
+        
+        
+    </body>
+</html>

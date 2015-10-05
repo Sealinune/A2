@@ -1,0 +1,13 @@
+[error] D:\PlayFramework\sealinune-assignment2015\conf\routes:7: ambiguous reference to overloaded definition,
+[error] both method index in object Application of type ()play.mvc.Result
+[error] and  method index in object Application of type ()play.mvc.Result
+[error] match argument types ()
+[error] GET     /                           controllers.Application.index()
+[error] D:\PlayFramework\sealinune-assignment2015\conf\routes:8: ambiguous reference to overloaded definition,
+[error] both method index in object Application of type ()play.mvc.Result
+[error] and  method index in object Application of type ()play.mvc.Result
+[error] match argument types ()
+[error] GET     /index                      controllers.Application.index()
+[error] D:\PlayFramework\sealinune-assignment2015\conf\routes:10: value front is not a member of object controllers.Application
+[error] GET    /spa                        controllers.Application.front()
+[error] three errors found

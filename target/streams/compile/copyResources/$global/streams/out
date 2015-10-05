@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(D:\PlayFramework\sealinune-assignment2015\conf\application.conf,D:\PlayFramework\sealinune-assignment2015\target\scala-2.11\classes\application.conf)
+[debug] 	(D:\PlayFramework\sealinune-assignment2015\conf\logback.xml,D:\PlayFramework\sealinune-assignment2015\target\scala-2.11\classes\logback.xml)
+[debug] 	(D:\PlayFramework\sealinune-assignment2015\conf\routes,D:\PlayFramework\sealinune-assignment2015\target\scala-2.11\classes\routes)

@@ -1,0 +1,43 @@
+@(messageList:List[String],email:String)
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    
+        <h1><b>Posting Page</b></h1><br/>
+        
+        <p>You are signed in as @email!!!  <a href="logout">Click here to log out</a><p>
+
+        <form action="postmessage" method="post" >
+            <label>Message:</label><br/>
+            
+            <textarea style="width: 750px; height: 200px;" name="newMessage" type="text"></textarea><br/>
+            <label>Tag:</label><br/>
+            <input type="text" style="width: 50px" name="tag1" />
+            <input type="text" style="width: 50px" name="tag2" />
+            <input type="text" style="width: 50px" name="tag3" />
+            <input type="text" style="width: 50px" name="tag4" />
+            <button type="submit">Submit</button>
+        </form>
+        
+        <br/>
+        <form action="index" method = "get"> 
+            <button type="submit">Back to the home page</button>
+        </form>
+        
+        <br/>
+        <b>old messages : </b>
+        
+        @for(message <- messageList) {
+			<div class="col-sm-12" style="margin-:15px;">
+				<label>email</label>
+				<p>@message</p>
+			</div>
+		}
+		
+    </body>
+</html>

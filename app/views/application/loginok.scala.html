@@ -1,0 +1,56 @@
+@(email:String)
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<h1><b>Landing Page</b></h1><br/>
+
+<h3>You are signed in as @email!!!</h3>
+
+<table border="0">
+    <tr>
+        <td>
+            <form action="publish" method = "get"> 
+                <button type="submit" style="width:300px; height: 80px;">Post Messages</button>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form action="search" method = "get"> 
+                <button type="submit" style="width:300px; height: 80px;">Search Messages</button>
+            </form>            
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <form action="sessions" method = "get"> 
+                <button type="submit" style="width:300px; height: 80px;">Sessions</button>
+            </form>            
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <form action="logout" method = "get"> 
+                <button type="submit" style="width:300px; height: 80px;">log out</button>
+            </form>            
+        </td>
+    </tr>
+
+</table>
+
+<!--
+<form action="show" method = "get"> 
+    <button type="submit">show</button>
+</form>
+-->
+
+</body>
+</html>
